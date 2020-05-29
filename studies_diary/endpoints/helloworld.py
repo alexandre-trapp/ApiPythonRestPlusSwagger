@@ -1,4 +1,4 @@
-from studies_diary.restplus import api
+from restplus import api
 from flask_restplus import Resource
 
 ns_default = api.default_namespace

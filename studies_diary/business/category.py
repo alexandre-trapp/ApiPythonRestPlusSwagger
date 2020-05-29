@@ -1,5 +1,5 @@
-from studies_diary.models.category import Category
-from studies_diary.db import db
+from models.category import Category
+from db import db
 
 class CategoryBus(object):
 

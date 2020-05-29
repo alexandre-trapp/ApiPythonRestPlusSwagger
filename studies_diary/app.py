@@ -1,9 +1,9 @@
 from flask import Flask, Blueprint
 from restplus import api
-from studies_diary.endpoints.helloworld import ns_default
-from studies_diary.endpoints.category import ns_category
-from studies_diary.db import config_db
-from studies_diary.log import log
+from endpoints.helloworld import ns_default
+from endpoints.category import ns_category
+from db import config_db
+from log import log
 
 app = Flask(__name__)
 

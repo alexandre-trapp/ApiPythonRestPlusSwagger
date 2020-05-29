@@ -1,3 +1,4 @@
+from werkzeug.utils import cached_property
 import logging
 
 def initialize_log():

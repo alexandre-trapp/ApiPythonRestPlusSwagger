@@ -1,7 +1,7 @@
-from studies_diary.restplus import api
+from restplus import api
 from flask_restplus import Resource
-from studies_diary.serializers.category import category_serializer
-from studies_diary.business.category import CategoryBus
+from serializers.category import category_serializer
+from business.category import CategoryBus
 
 ns_category = api.namespace('categories',
                             description='Operations related to categories')

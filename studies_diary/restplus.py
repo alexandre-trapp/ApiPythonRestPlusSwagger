@@ -1,5 +1,5 @@
 import traceback
-from studies_diary.log import log
+from log import log
 from flask_restplus import Api
 from sqlalchemy.orm.exc import NoResultFound
 
